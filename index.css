@@ -1,0 +1,47 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    height: 94vh;
+    width: 100%;
+    border: 10px solid orange;
+    display:flex;
+    background-color: black;
+    
+
+}
+
+#left{
+    height: 100%;
+    width:50%;
+    border:10px solid orangered;
+}
+#right{
+    height: 100%;
+    width:50%;
+    border:10px solid orangered;
+}
+
+
+
+.container > div {
+   
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:10px;
+    cursor: grab;
+
+}
+
+.move > img {
+    height: 20vh;
+    width: 20vw;
+    border:10px solid greenyellow;
+    align-items: center;
+    cursor: grab;
+    
+    
+}
